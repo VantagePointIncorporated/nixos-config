@@ -6,31 +6,25 @@
 
   environment.systemPackages = with pkgs; [
     # Desktop apps
-    audacity
-    chromium
-    telegram-desktop
     alacritty
     obs-studio
     rofi
     wofi
     mpv
-    kdenlive
-    discord
     gparted
     obsidian
-    zoom-us
     pcmanfm-qt
-    polymc
+    prismlauncher
 
     # Coding stuff
     gnumake
     gcc
     nodejs
     python
+    jetbrains.clion
     (python3.withPackages (ps: with ps; [ requests ]))
 
     # CLI utils
-    neofetch
     file
     tree
     wget
